@@ -17,13 +17,6 @@ cask "cooldown" do
 
   app "Cooldown.app"
 
-  # Cooldown is open source but not notarized by Apple (that needs a paid developer account).
-  # Without this, macOS would refuse to open it on first launch.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Cooldown.app"]
-  end
-
   uninstall quit: "com.vitalyor.cooldown"
 
   zap trash: [
