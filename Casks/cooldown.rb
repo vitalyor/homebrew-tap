@@ -1,6 +1,6 @@
 cask "cooldown" do
-  version "1.3.0"
-  sha256 "807b497c9db774801820ee530347ee554804d3a85b5c56927fce3f6e6c56d193"
+  version "1.3.1"
+  sha256 "4eb94daa31c04c9d589bf695715952b2ea731d89eb303239c69b92eec6349d69"
 
   url "https://github.com/vitalyor/cooldown/releases/download/v#{version}/Cooldown-#{version}.dmg"
   name "Cooldown"
