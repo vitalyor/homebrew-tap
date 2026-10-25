@@ -9,8 +9,7 @@ what each agent is doing, and continuing work after a limit resets.
 brew install --cask vitalyor/tap/cooldown
 ```
 
-Cooldown is open source but not notarized by Apple, so the cask removes the download quarantine
-flag after installing; otherwise macOS would refuse to open the app. Cooldown updates itself;
+Cooldown is signed with a Developer ID certificate and notarized by Apple. It updates itself;
 `brew upgrade` works too.
 
 ---
@@ -24,6 +23,5 @@ flag after installing; otherwise macOS would refuse to open the app. Cooldown up
 brew install --cask vitalyor/tap/cooldown
 ```
 
-Cooldown — открытый проект, но не нотаризован Apple, поэтому после установки cask снимает с
-приложения отметку карантина; иначе macOS не даст его открыть. Cooldown обновляется сам,
+Cooldown подписан сертификатом Developer ID и заверен Apple. Обновляется сам,
 `brew upgrade` тоже работает.
